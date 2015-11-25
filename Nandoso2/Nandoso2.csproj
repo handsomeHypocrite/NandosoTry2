@@ -150,8 +150,8 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\GetFood.js" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
@@ -165,14 +165,12 @@
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\DishesController.cs" />
-    <Compile Include="Forum.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Dish.cs" />
     <Compile Include="Models\Nandoso2Context.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="StartForum.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
